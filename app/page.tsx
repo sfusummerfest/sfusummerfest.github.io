@@ -53,6 +53,18 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <section className="p-2 text-[#DB796D] border-[#DB796D] border-4 rounded-xl space-y-4">
+          <div>
+            <h2 className="text-3xl font-bold">
+              <i className="fa-brands fa-square-youtube"></i>&nbsp;
+              SFU Summer Festival 2022 VOD
+            </h2>
+            <hr/>
+          </div>
+          <div className="w-full h-[576px]">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vAZB4xjWcdc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          </div>
+        </section>
       </main>
       <footer className="w-full bg-[#351211] flex flex-col items-center justify-between space-y-8">
         <section className="max-w-xs">
