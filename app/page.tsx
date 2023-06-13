@@ -19,6 +19,41 @@ export default function Home() {
           <Link href="#home-main"><button className="border-white border-4 rounded-full py-4 px-8 bg-[#DB796D] hover:bg-[#FFA266] focus:bg-[#FFA266] active:bg-[#FFA266] text-white font-bold">Enter</button></Link>
         </div>
       </header>
+      <main className="max-w-screen-lg px-2 space-y-4" id="home-main">
+        <section className="p-2 text-[#DB796D] border-[#DB796D] border-4 rounded-xl space-y-4">
+          <div>
+            <h2 className="text-3xl font-bold">
+              <i className="fa-solid fa-circle-info"></i>&nbsp;
+              Important information regarding SFU Summer Festival 2023
+            </h2>
+            <hr/>
+          </div>
+          <div className="text-lg leading-normal space-y-2">
+            <p>
+              Hello everyone, we, unfortunately, have some difficult news to share with you all.
+            </p>
+            <p>
+              Due to challenges presented with preparations and regulatory requirements, we will not be hosting the SFU Summer Festival for 2023.
+              We understand that this is something that many regular attendees have been looking forward to, it is a long-standing tradition for us as a club and it hurts us to be put into a situation where we cannot foresee running the event this year.
+            </p>
+            <p>
+              However, this is not the end for SummerFest, even though we do not plan to run the event this year, we are looking to ensure that it will happen next year for 2024.
+              Many of our concerns for this year's SummerFest lie in newfound limitations, accessibility, and complications in ensuring a safe venue space.
+              We plan to take a year to reevaluate our event plan, layout, and location and anticipate significant changes in the coming festivals.
+            </p>
+            <p>
+              A main concern for us is that we do not wish to bring something that would not meet the same standards as in previous years' festivals.
+              Last year saw a fantastic turnout and it welcomed many new people to the landscape, and we wish to ensure that we can keep striving for something more, to keep growing, instead of taking a step back.
+            </p>
+            <p>
+              We from the SFU Summer Festival Committee sincerely apologize to all of you who were looking forward to this year's event, and we thank you all for your understanding of this situation.
+            </p>
+            <p>
+              - SFU Summer Festival Planning Committee
+            </p>
+          </div>
+        </section>
+      </main>
       <footer className="w-full bg-[#351211] flex flex-col items-center justify-between space-y-8">
         <section className="max-w-xs">
           <Image src={logoImage} alt="Logo of The Summer Festival presented by SFU Anime" unoptimized></Image>
