@@ -38,15 +38,15 @@ export default function Home() {
             </p>
             <p>
               However, this is not the end for SummerFest, even though we do not plan to run the event this year, we are looking to ensure that it will happen next year for 2024.
-              Many of our concerns for this year's SummerFest lie in newfound limitations, accessibility, and complications in ensuring a safe venue space.
+              Many of our concerns for this year&apos;s SummerFest lie in newfound limitations, accessibility, and complications in ensuring a safe venue space.
               We plan to take a year to reevaluate our event plan, layout, and location and anticipate significant changes in the coming festivals.
             </p>
             <p>
-              A main concern for us is that we do not wish to bring something that would not meet the same standards as in previous years' festivals.
+              A main concern for us is that we do not wish to bring something that would not meet the same standards as in previous years&apos; festivals.
               Last year saw a fantastic turnout and it welcomed many new people to the landscape, and we wish to ensure that we can keep striving for something more, to keep growing, instead of taking a step back.
             </p>
             <p>
-              We from the SFU Summer Festival Committee sincerely apologize to all of you who were looking forward to this year's event, and we thank you all for your understanding of this situation.
+              We from the SFU Summer Festival Committee sincerely apologize to all of you who were looking forward to this year&apos;s event, and we thank you all for your understanding of this situation.
             </p>
             <p>
               - SFU Summer Festival Planning Committee
