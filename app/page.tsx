@@ -7,9 +7,8 @@ import logoImage from "@/public/logos/the-summer-festival.png"
 export default function Home() {
   return (
     <div
-      className={`
-        flex flex-col items-center justify-between min-h-screen space-y-8
-      `}
+      className="flex flex-col items-center justify-between min-h-screen
+        space-y-8"
     >
       <header className="h-screen relative w-full">
         <div
@@ -17,17 +16,13 @@ export default function Home() {
           id="home-bg-video-container"
         >
           <iframe
-            allow={`
-              accelerometer; autoplay; clipboard-write; encrypted-media;
-              gyroscope; picture-in-picture; web-share
-            `}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+              gyroscope; picture-in-picture; web-share"
             allowFullScreen
             height="100%"
-            src={
-              `https://www.youtube.com/embed/videoseries` +
-              `?autoplay=1&controls=0&list=PLSTh59A_fKDPiLM40AURyxLslgio8N7Ds` +
-              `&loop=1&si=3GPJuyHFO1xmB1ap`
-            }
+            src="https://www.youtube.com/embed/videoseries
+              ?autoplay=1&controls=0&list=PLSTh59A_fKDPiLM40AURyxLslgio8N7Ds
+              &loop=1&si=3GPJuyHFO1xmB1ap"
             title="YouTube video player"
             width="100%"
           ></iframe>
@@ -36,10 +31,8 @@ export default function Home() {
           className="absolute bg-black h-full left-0 opacity-70 top-0 w-full"
         ></div>
         <div
-          className={`
-            absolute flex flex-col h-full items-center justify-center left-0
-            top-0 w-full
-          `}
+          className="absolute flex flex-col h-full items-center justify-center
+            left-0 top-0 w-full"
         >
           <div className="max-w-4xl">
             <Image
@@ -50,13 +43,11 @@ export default function Home() {
           </div>
           <Link href="#home-main">
             <button
-              className={`
-                active:bg-primary-purple active:border-primary-yellow
+              className="active:bg-primary-purple active:border-primary-yellow
                 active:text-primary-yellow bg-primary-red border-4
                 border-white font-bold hocus:bg-primary-purple
                 hocus:border-primary-yellow hocus:text-primary-yellow px-8
-                py-4 rounded-full text-white
-              `}
+                py-4 rounded-full text-white"
             >Enter</button>
           </Link>
         </div>
@@ -124,10 +115,8 @@ export default function Home() {
           </div>
           <div className="h-full w-full">
             <iframe
-              allow={`
-                accelerometer; autoplay; clipboard-write; encrypted-media;
-                gyroscope; picture-in-picture; web-share
-              `}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                gyroscope; picture-in-picture; web-share"
               allowFullScreen
               height="576px"
               src="https://www.youtube.com/embed/vAZB4xjWcdc"
@@ -138,10 +127,8 @@ export default function Home() {
         </section>
       </main>
       <footer
-        className={`
-          bg-primary-dark flex flex-col items-center justify-between space-y-8
-          w-full
-        `}
+        className="bg-primary-dark flex flex-col items-center justify-between
+          space-y-8 w-full"
       >
         <section className="max-w-xs">
           <Image
