@@ -2,7 +2,7 @@ import "@fortawesome/fontawesome-free/js/all.min";
 import Image from "next/image";
 import Link from "next/link";
 
-import logoImage from "@/public/logos/the-summer-festival.png"
+import logoImage from "@/public/images/logos/the-summer-festival.png"
 
 export default function Home() {
   return (
