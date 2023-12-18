@@ -38,6 +38,7 @@ export default function Home() {
             <ExportedImage
               alt="Logo of The Summer Festival presented by SFU Anime"
               src={logoImage}
+              priority
             ></ExportedImage>
           </div>
           <Link href="#home-main">
