@@ -1,8 +1,8 @@
 import "@fortawesome/fontawesome-free/js/all.min";
-import Image from "next/image";
 import Link from "next/link";
 
 import logoImage from "@/public/images/logos/the-summer-festival.png"
+import ExportedImage from "next-image-export-optimizer";
 
 export default function Home() {
   return (
@@ -35,11 +35,10 @@ export default function Home() {
             left-0 top-0 w-full"
         >
           <div className="max-w-4xl">
-            <Image
+            <ExportedImage
               alt="Logo of The Summer Festival presented by SFU Anime"
               src={logoImage}
-              unoptimized
-            ></Image>
+            ></ExportedImage>
           </div>
           <Link href="#home-main">
             <button
@@ -131,11 +130,10 @@ export default function Home() {
           space-y-8 w-full"
       >
         <section className="max-w-xs">
-          <Image
+          <ExportedImage
             alt="Logo of The Summer Festival presented by SFU Anime"
             src={logoImage}
-            unoptimized
-          ></Image>
+          ></ExportedImage>
         </section>
         <section className="space-x-2 text-white text-xl">
           <Link href="https://www.facebook.com/sfusummerfest">
