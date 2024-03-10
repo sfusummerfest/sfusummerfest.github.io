@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import logoImage from "@/public/images/logos/the-summer-festival.png"
 import ExportedImage from "next-image-export-optimizer";
+import SocMedBar from "@/components/SocMedBar";
 
 export default function Home() {
   return (
@@ -137,36 +138,7 @@ export default function Home() {
           ></ExportedImage>
         </section>
         <section className="space-x-2 text-white text-xl">
-          <Link href="https://www.facebook.com/sfusummerfest">
-            <span className="bg-brand-facebook p-3 rounded-md">
-              <i className="fa-brands fa-facebook"></i>
-            </span>
-          </Link>
-          <Link href="https://www.twitter.com/SFUSummerFest">
-            <span className="bg-brand-twitter p-3 rounded-md">
-              <i className="fa-brands fa-twitter"></i>
-            </span>
-          </Link>
-          <Link href="https://www.instagram.com/sfusummerfest">
-            <span className="bg-brand-instagram p-3 rounded-md">
-              <i className="fa-brands fa-instagram"></i>
-            </span>
-          </Link>
-          <Link href="https://www.twitch.tv/sfusummerfest">
-            <span className="bg-brand-twitch p-3 rounded-md">
-              <i className="fa-brands fa-twitch"></i>
-            </span>
-          </Link>
-          <Link href="https://www.youtube.com/channel/UCioH5wqn7VSG0valSMrD5VA">
-            <span className="bg-brand-youtube p-3 rounded-md">
-              <i className="fa-brands fa-youtube"></i>
-            </span>
-          </Link>
-          <Link href="https://www.discord.gg/sfuanime">
-            <span className="bg-brand-discord p-3 rounded-md">
-              <i className="fa-brands fa-discord"></i>
-            </span>
-          </Link>
+          <SocMedBar></SocMedBar>
         </section>
         <section>
           <p className="text-gray-500 text-xs">
