@@ -21,9 +21,7 @@ export default function Home() {
               gyroscope; picture-in-picture; web-share"
             allowFullScreen
             height="100%"
-            src={"https://www.youtube.com/embed/videoseries" +
-              "?autoplay=1&controls=0&list=PLSTh59A_fKDPiLM40AURyxLslgio8N7Ds" +
-              "&loop=1&si=3GPJuyHFO1xmB1ap"}
+            src="https://www.youtube.com/embed/3FAz7KMoKrA?si=RXYW2BWo_88rEV-Y&autoplay=1&mute=1&controls=0&loop=1&playlist=3FAz7KMoKrA"
             title="YouTube video player"
             width="100%"
           ></iframe>
