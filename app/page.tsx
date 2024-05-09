@@ -13,21 +13,19 @@ export default function Home() {
     >
       <header className="h-screen relative w-full">
         <div
-          className="absolute h-full left-0 top-0 w-full"
+          className="absolute video-background h-full w-full overflow-hidden"
           id="home-bg-video-container"
         >
           <iframe
             allow="accelerometer; autoplay; clipboard-write; encrypted-media;
               gyroscope; picture-in-picture; web-share"
             allowFullScreen
-            height="100%"
-            src="https://www.youtube.com/embed/3FAz7KMoKrA?si=RXYW2BWo_88rEV-Y&autoplay=1&mute=1&controls=0&loop=1&playlist=3FAz7KMoKrA"
+            src="https://www.youtube.com/embed/3FAz7KMoKrA?si=RXYW2BWo_88rEV-Y &rel=0&autoplay=1&mute=1&controls=0&loop=1&playlist=3FAz7KMoKrA"
             title="YouTube video player"
-            width="100%"
           ></iframe>
         </div>
         <div
-          className="absolute bg-black h-full left-0 opacity-70 top-0 w-full"
+          className="fade-in-overlay absolute bg-black h-full left-0 opacity-70 top-0 w-full"
         ></div>
         <div
           className="absolute flex flex-col h-full items-center justify-center
