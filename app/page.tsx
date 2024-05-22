@@ -1,9 +1,13 @@
 import "@fortawesome/fontawesome-free/js/all.min";
 import Link from "next/link";
 
-import logoImage from "@/public/images/logos/the-summer-festival.png"
+import logoImage from "@/public/images/logos/the-summer-festival.webp"
 import ExportedImage from "next-image-export-optimizer";
 import SocMedBar from "@/components/SocMedBar";
+import fireworkIcon from "@/public/images/firework.webp";
+import Natsuko from "@/public/images/natsuko.webp";
+import PaperFanIcon from "@/public/images/paper-fan.webp";
+import RenAyumi from "@/public/images/ren-ayumi.webp";
 
 export default function Home() {
   return (
@@ -20,7 +24,7 @@ export default function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media;
               gyroscope; picture-in-picture; web-share"
             allowFullScreen
-            src="https://www.youtube.com/embed/3FAz7KMoKrA?si=RXYW2BWo_88rEV-Y &rel=0&autoplay=1&mute=1&controls=0&loop=1&playlist=3FAz7KMoKrA"
+            src="https://www.youtube.com/embed/3FAz7KMoKrA?si=RXYW2BWo_88rEV-Y&hd=1&rel=0&autoplay=1&mute=1&controls=0&loop=1&playlist=3FAz7KMoKrA"
             title="YouTube video player"
           ></iframe>
         </div>
@@ -28,7 +32,7 @@ export default function Home() {
           className="fade-in-overlay absolute bg-black h-full left-0 opacity-70 top-0 w-full"
         ></div>
         <div
-          className="absolute flex flex-col h-full items-center justify-center
+          className="absolute flex flex-col gap-y-4 h-full items-center justify-center
             left-0 top-0 w-full"
         >
           <div className="max-w-4xl">
@@ -38,109 +42,142 @@ export default function Home() {
               priority
             ></ExportedImage>
           </div>
-          <Link href="#home-main">
+          <div className="text-white text-lg font-semibold mx-3 text-center mb-3">
+            <h1>
+              September 7th  •  1:30 pm - 8:00 pm  •  3700 Willingdon Avenue
+            </h1>
+          </div>
+          <Link href="/">
             <button
-              className="active:bg-primary-purple active:border-primary-yellow
-                active:text-primary-yellow bg-primary-red border-4
-                border-white font-bold hocus:bg-primary-purple
-                hocus:border-primary-yellow hocus:text-primary-yellow px-8
-                py-4 rounded-full text-white"
-            >Enter</button>
+              className="
+                active:text-primary-red hocus:-translate-y-1 transition-all bg-primary-yellow
+                font-bold px-4 py-2 duration-300 ease-in-out
+                rounded-full text-black flex items-center gap-x-5 group"
+            >
+              <img src={fireworkIcon.src} alt="Firework icon" className="h-12 w-12 transition-transform duration-300 group-hover:rotate-45" />
+              <span className="text-lg">Artist and Vendor Signup</span>
+            </button>
           </Link>
         </div>
       </header>
-      <main className="max-w-screen-lg px-2 space-y-4" id="home-main">
-        <section
-          className="border-4 border-primary-red p-2 rounded-xl space-y-4"
-        >
-          <div>
-            <h2 className="font-bold text-3xl text-primary-red">
-              <i className="fa-circle-info fa-solid"></i>&nbsp;
-              Important information regarding SFU Summer Festival 2023
-            </h2>
-            <hr />
-          </div>
-          <div className="leading-normal space-y-2 text-lg">
-            <p>
-              Hello everyone, we, unfortunately, have some difficult news to
-              share with you all.
-            </p>
-            <p>
-              Due to challenges presented with preparations and regulatory
-              requirements, we will <b>not</b> be hosting the SFU Summer
-              Festival for 2023. We understand that this is something that many
-              regular attendees have been looking forward to, it is a long-
-              standing tradition for us as a club and it hurts us to be put into
-              a situation where we cannot foresee running the event this year.
-            </p>
-            <p>
-              However, this is not the end for SummerFest, even though we do not
-              plan to run the event this year, we are looking to ensure that it
-              will happen next year for 2024. Many of our concerns for this
-              year&apos;s SummerFest lie in newfound limitations, accessibility,
-              and complications in ensuring a safe venue space. We plan to take
-              a year to reevaluate our event plan, layout, and location and
-              anticipate significant changes in the coming festivals.
-            </p>
-            <p>
-              A main concern for us is that we do not wish to bring something
-              that would not meet the same standards as in previous years&apos;
-              festivals. Last year saw a fantastic turnout and it welcomed many
-              new people to the landscape, and we wish to ensure that we can
-              keep striving for something more, to keep growing, instead of
-              taking a step back.
-            </p>
-            <p>
-              We from the SFU Summer Festival Committee sincerely apologize to
-              all of you who were looking forward to this year&apos;s event, and
-              we thank you all for your understanding of this situation.
-            </p>
-            <p className="text-right">
-              - SFU Summer Festival Planning Committee
-            </p>
-          </div>
-        </section>
-        <section
-          className="border-4 border-primary-red p-2 rounded-xl space-y-4"
-        >
-          <div>
-            <h2 className="font-bold text-3xl text-primary-red">
-              <i className="fa-brands fa-square-youtube"></i>&nbsp;
-              SFU Summer Festival 2022 VOD
-            </h2>
-            <hr />
-          </div>
-          <div className="h-full w-full">
-            <iframe
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              height="576px"
-              src="https://www.youtube.com/embed/vAZB4xjWcdc"
-              title="YouTube video player"
-              width="100%"
-            ></iframe>
-          </div>
-        </section>
-      </main>
-      <footer
-        className="bg-primary-dark flex flex-col items-center justify-between
-          space-y-8 w-full"
-      >
-        <section className="max-w-xs">
-          <ExportedImage
-            alt="Logo of The Summer Festival presented by SFU Anime"
-            src={logoImage}
-          ></ExportedImage>
-        </section>
-        <section className="space-x-2 text-white text-xl">
-          <SocMedBar></SocMedBar>
-        </section>
-        <section>
-          <p className="text-gray-500 text-xs">
-            &copy; SFU Summer Festival 2022-2023
+
+      <section className="md:max-w-screen-2xl px-5 md:px-0 grid grid-cols-4 gap-x-4 pt-24">
+        <div className="col-span-2">
+          <h2 className="text-4xl font-bold mb-6 inline-flex items-center">
+            What is the Summer Festival?
+            <img src={PaperFanIcon.src} alt="Paper fan icon" className="ml-4 max-h-14" />
+          </h2>
+          <p className="text-lg mb-6">
+            The Summer Festival is a one-day, free to attend anime convention in the style of a Japanese ‘Matsuri’ festival held right in Metro Vancouver! While traditionally held on SFU’s Burnaby Mountain campus, SFU Anime has collaborated with BCIT Anime to host the event in BCIT’s Burnaby campus for 2024.
           </p>
-        </section>
+          <p className="text-lg">
+            At the festival itself you can find a variety of festival games, as well as, booths hosted by local artists and vendors selling hand-made art and various other goods. When you get hungry you will find a host of local food vendors cooking up fresh and delicious treats which you can enjoy along with stage performances and panels throughout the event.
+          </p>
+        </div>
+        <div className="flex justify-center col-span-2">
+          <img src={Natsuko.src} alt="Natsuko" className="h-min" />
+        </div>
+      </section>
+
+      <section className="w-full md:max-w-screen-2xl px-5 md:px-0 grid grid-cols-4 gap-x-4 py-24">
+
+        <div className="col-span-2 flex flex-col justify-center">
+          <h2 className="text-4xl font-bold mb-10 inline-flex items-center col-span-full">
+            When is the Summer Festival?
+            <img src={fireworkIcon.src} alt="Firework Icon" className="ml-4 max-h-14" />
+          </h2>
+          <div className="flex items-center">
+            <div className="w-1/2 pr-8">
+              <img src={RenAyumi.src} alt="Ren Ayumi" className="h-min" />
+            </div>
+            <div className="w-1/2">
+              <h3 className="text-2xl font-bold mb-2">
+                Date & Hours
+              </h3>
+              <p className="text-lg">
+                September 7th
+              </p>
+              <p className="text-lg">
+                1:30 pm to 8:00 pm
+              </p>
+              <h3 className="text-2xl font-bold mt-6 mb-2">
+                Event Location
+              </h3>
+              <p className="text-lg">
+                BCIT's Burnaby Campus
+              </p>
+              <p className="text-lg">
+                3700 Willingdon Avenue
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center col-span-2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.9241972913957!2d-123.00332618431946!3d49.24880927932766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486770f1e0af3c1%3A0x1e3dfd9f81966026!2sBritish%20Columbia%20Institute%20of%20Technology%20(BCIT)%20Burnaby%20Campus!5e0!3m2!1sen!2sca!4v1626276243721!5m2!1sen!2sca"
+            width="100%"
+            height="450"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <footer
+        className="bg-black w-full"
+      >
+        <div className="px-5 py-10 md:max-w-screen-2xl md:mx-auto">
+          <div className="grid grid-cols-2 gap-x-5">
+            <div className="flex flex-col">
+              <section className="max-w-xs mb-5">
+                <ExportedImage
+                  alt="Logo of The Summer Festival presented by SFU Anime"
+                  src={logoImage}
+                ></ExportedImage>
+              </section>
+              <section className="text-white">
+                BCIT Burnaby Campus
+              </section>
+              <section className="text-white">
+                3700 Willingdon Avenue
+              </section>
+              <section className="space-x-2 text-white text-xl py-10">
+                <SocMedBar></SocMedBar>
+              </section>
+            </div>
+
+            <div className="flex self-center">
+              <ul className="text-white">
+                <li>
+                  <Link href={"/"}>
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link href={""}>
+                    Contact Us
+                  </Link>
+                </li>
+                <li>
+                  <Link href={""}>
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link href={""}>
+                    FAQ
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <section>
+            <p className="text-gray-500 text-xs">
+              &copy; SFU Summer Festival 2022-2024
+            </p>
+          </section>
+        </div>
       </footer>
     </div>
   )

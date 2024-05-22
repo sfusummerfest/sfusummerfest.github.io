@@ -37,3 +37,7 @@
   opacity: 0.7;
   transition: opacity 2s ease-in-out;
 }
+
+*sd{
+  border: solid 1px red;
+}
