@@ -8,7 +8,7 @@ export default function Footer() {
         <footer
             className="bg-black w-full"
         >
-            <div className="px-5 py-14 md:max-w-screen-2xl md:mx-auto">
+            <div className="px-5 py-10 md:max-w-screen-2xl md:mx-auto">
 
                 <div className="flex flex-col items-center">
                     <section className="max-w-52 lg:max-w-xs mb-5">

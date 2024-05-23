@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="md:max-w-screen-2xl px-5 grid grid-cols-4 gap-4 lg:pt-24" id="about">
+      <article className="md:max-w-screen-2xl px-5 grid grid-cols-4 gap-4 lg:pt-24" id="about">
         <div className="col-span-full lg:col-span-2 lg:row-start-1">
           <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row">
             What is the Summer Festival?
@@ -76,9 +76,9 @@ export default function Home() {
         <div className="flex justify-center row-start-2 col-span-full lg:row-start-1 lg:col-span-2">
           <img src={Natsuko.src} alt="Natsuko" className="max-w-xs lg:max-w-full lg:h-min" />
         </div>
-      </section>
+      </article>
 
-      <section className="w-full md:max-w-screen-2xl px-5 grid grid-cols-4 gap-4 pb-24 lg:pt-24">
+      <article className="w-full md:max-w-screen-2xl px-5 grid grid-cols-4 gap-4 pb-24 lg:pt-24">
 
         <div className="col-span-full lg:col-span-2 flex flex-col justify-center">
           <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row">
@@ -121,7 +121,7 @@ export default function Home() {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </section>
+      </article>
     </div>
   )
 }

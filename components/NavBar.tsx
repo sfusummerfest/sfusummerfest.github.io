@@ -55,7 +55,7 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
+                            <Link href="/faq" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
                                 FAQ
                             </Link>
                         </li>
@@ -73,7 +73,7 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link onClick={toggleMobileMenu} href="">
+                        <Link onClick={toggleMobileMenu} href="/#about">
                             About
                         </Link>
                     </li>
@@ -83,7 +83,7 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link onClick={toggleMobileMenu} href="">
+                        <Link onClick={toggleMobileMenu} href="/faq">
                             FAQ
                         </Link>
                     </li>
