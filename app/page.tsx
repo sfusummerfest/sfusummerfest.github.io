@@ -3,7 +3,6 @@ import Link from "next/link";
 
 import logoImage from "@/public/images/logos/the-summer-festival.webp"
 import ExportedImage from "next-image-export-optimizer";
-import SocMedBar from "@/components/SocMedBar";
 import fireworkIcon from "@/public/images/firework.webp";
 import Natsuko from "@/public/images/natsuko.webp";
 import PaperFanIcon from "@/public/images/paper-fan.webp";
@@ -61,33 +60,33 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="md:max-w-screen-2xl px-5 md:px-0 grid grid-cols-4 gap-x-4 pt-24">
-        <div className="col-span-2">
-          <h2 className="text-4xl font-bold mb-6 inline-flex items-center">
+      <section className="md:max-w-screen-2xl px-5 grid grid-cols-4 gap-4 lg:pt-24" id="about">
+        <div className="col-span-full lg:col-span-2 lg:row-start-1">
+          <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row">
             What is the Summer Festival?
-            <img src={PaperFanIcon.src} alt="Paper fan icon" className="ml-4 max-h-14" />
+            <img src={PaperFanIcon.src} alt="Paper fan icon" className="lg:ml-4 max-h-14 w-min" />
           </h2>
-          <p className="text-lg mb-6">
-            The Summer Festival is a one-day, free to attend anime convention in the style of a Japanese ‘Matsuri’ festival held right in Metro Vancouver! While traditionally held on SFU’s Burnaby Mountain campus, SFU Anime has collaborated with BCIT Anime to host the event in BCIT’s Burnaby campus for 2024.
+          <p className="text-base lg:text-lg mb-6">
+            The Summer Festival is a one-day, <b>free to attend</b> anime convention in the style of a Japanese ‘Matsuri’ festival held right in Metro Vancouver! While traditionally held on SFU’s Burnaby Mountain campus, SFU Anime has collaborated with BCIT Anime to host the event in BCIT’s Burnaby campus for 2024.
           </p>
-          <p className="text-lg">
+          <p className="text-base lg:text-lg">
             At the festival itself you can find a variety of festival games, as well as, booths hosted by local artists and vendors selling hand-made art and various other goods. When you get hungry you will find a host of local food vendors cooking up fresh and delicious treats which you can enjoy along with stage performances and panels throughout the event.
           </p>
         </div>
-        <div className="flex justify-center col-span-2">
-          <img src={Natsuko.src} alt="Natsuko" className="h-min" />
+        <div className="flex justify-center row-start-2 col-span-full lg:row-start-1 lg:col-span-2">
+          <img src={Natsuko.src} alt="Natsuko" className="max-w-xs lg:max-w-full lg:h-min" />
         </div>
       </section>
 
-      <section className="w-full md:max-w-screen-2xl px-5 md:px-0 grid grid-cols-4 gap-x-4 py-24">
+      <section className="w-full md:max-w-screen-2xl px-5 grid grid-cols-4 gap-4 pb-24 lg:pt-24">
 
-        <div className="col-span-2 flex flex-col justify-center">
-          <h2 className="text-4xl font-bold mb-10 inline-flex items-center col-span-full">
+        <div className="col-span-full lg:col-span-2 flex flex-col justify-center">
+          <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row">
             When is the Summer Festival?
-            <img src={fireworkIcon.src} alt="Firework Icon" className="ml-4 max-h-14" />
+            <img src={fireworkIcon.src} alt="Firework Icon" className="lg:ml-4 max-h-14 w-min" />
           </h2>
-          <div className="flex items-center">
-            <div className="w-1/2 pr-8">
+          <div className="flex items-center flex-row-reverse">
+            <div className="w-1/2">
               <img src={RenAyumi.src} alt="Ren Ayumi" className="h-min" />
             </div>
             <div className="w-1/2">
@@ -112,73 +111,17 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center col-span-2">
+        <div className="flex justify-center col-span-full row-start-2 lg:row-start-1 lg:col-start-3 lg:col-span-2 h-64 lg:h-96">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.9241972913957!2d-123.00332618431946!3d49.24880927932766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486770f1e0af3c1%3A0x1e3dfd9f81966026!2sBritish%20Columbia%20Institute%20of%20Technology%20(BCIT)%20Burnaby%20Campus!5e0!3m2!1sen!2sca!4v1626276243721!5m2!1sen!2sca"
             width="100%"
-            height="450"
+            height="100%"
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </section>
-
-      <footer
-        className="bg-black w-full"
-      >
-        <div className="px-5 py-10 md:max-w-screen-2xl md:mx-auto">
-          <div className="grid grid-cols-2 gap-x-5">
-            <div className="flex flex-col">
-              <section className="max-w-xs mb-5">
-                <ExportedImage
-                  alt="Logo of The Summer Festival presented by SFU Anime"
-                  src={logoImage}
-                ></ExportedImage>
-              </section>
-              <section className="text-white">
-                BCIT Burnaby Campus
-              </section>
-              <section className="text-white">
-                3700 Willingdon Avenue
-              </section>
-              <section className="space-x-2 text-white text-xl py-10">
-                <SocMedBar></SocMedBar>
-              </section>
-            </div>
-
-            <div className="flex self-center">
-              <ul className="text-white">
-                <li>
-                  <Link href={"/"}>
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link href={""}>
-                    Contact Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href={""}>
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href={""}>
-                    FAQ
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <section>
-            <p className="text-gray-500 text-xs">
-              &copy; SFU Summer Festival 2022-2024
-            </p>
-          </section>
-        </div>
-      </footer>
     </div>
   )
 }

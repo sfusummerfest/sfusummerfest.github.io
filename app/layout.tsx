@@ -1,6 +1,7 @@
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 
 import './globals.css'
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
