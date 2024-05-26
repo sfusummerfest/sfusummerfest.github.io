@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div
       className="flex flex-col items-center justify-between min-h-screen
-        space-y-8"
+        space-y-8 bg-stone-50"
     >
       <header className="h-screen relative w-full">
         <div
@@ -34,7 +34,7 @@ export default function Home() {
           className="absolute flex flex-col gap-y-4 h-full items-center justify-center
             left-0 top-0 w-full"
         >
-          <div className="max-w-4xl">
+          <div className="max-w-2xl">
             <ExportedImage
               alt="Logo of The Summer Festival presented by SFU Anime"
               src={logoImage}
@@ -60,9 +60,9 @@ export default function Home() {
         </div>
       </header>
 
-      <article className="md:max-w-screen-2xl px-5 grid grid-cols-4 gap-4 lg:pt-24" id="about">
+      <article className="md:max-w-screen-xl mx-4 grid grid-cols-4 gap-4 lg:pt-24" id="about">
         <div className="col-span-full lg:col-span-2 lg:row-start-1">
-          <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row">
+          <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row text-stone-950">
             What is the Summer Festival?
             <img src={PaperFanIcon.src} alt="Paper fan icon" className="lg:ml-4 max-h-14 w-min" />
           </h2>
@@ -78,10 +78,9 @@ export default function Home() {
         </div>
       </article>
 
-      <article className="w-full md:max-w-screen-2xl px-5 grid grid-cols-4 gap-4 pb-24 lg:pt-24">
-
+      <article className="md:max-w-screen-xl mx-4 grid grid-cols-4 gap-4 pb-24 lg:pt-24">
         <div className="col-span-full lg:col-span-2 flex flex-col justify-center">
-          <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row">
+          <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row text-stone-950">
             When is the Summer Festival?
             <img src={fireworkIcon.src} alt="Firework Icon" className="lg:ml-4 max-h-14 w-min" />
           </h2>
@@ -90,32 +89,32 @@ export default function Home() {
               <img src={RenAyumi.src} alt="Ren Ayumi" className="h-min" />
             </div>
             <div className="w-1/2">
-              <h3 className="text-2xl font-bold mb-2">
+              <h3 className="text-xl lg:text-2xl font-bold mb-2">
                 Date & Hours
               </h3>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 September 7th
               </p>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 1:30 pm to 8:00 pm
               </p>
               <h3 className="text-2xl font-bold mt-6 mb-2">
                 Event Location
               </h3>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 BCIT's Burnaby Campus
               </p>
-              <p className="text-lg">
+              <p className="text-base lg:text-lg">
                 3700 Willingdon Avenue
               </p>
             </div>
           </div>
         </div>
-        <div className="flex justify-center col-span-full row-start-2 lg:row-start-1 lg:col-start-3 lg:col-span-2 h-64 lg:h-96">
+        <div className="flex justify-center col-span-full row-start-2 lg:row-start-1 lg:col-start-3 lg:col-span-2 pt-8 lg:pt-0 h-96 ">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.9241972913957!2d-123.00332618431946!3d49.24880927932766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486770f1e0af3c1%3A0x1e3dfd9f81966026!2sBritish%20Columbia%20Institute%20of%20Technology%20(BCIT)%20Burnaby%20Campus!5e0!3m2!1sen!2sca!4v1626276243721!5m2!1sen!2sca"
             width="100%"
-            height="100%"
+            className="w-full lg:pl-20"
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

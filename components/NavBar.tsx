@@ -27,8 +27,8 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="w-full h-12 z-40 fixed px-5 bg-primary-red">
-                <div className='flex h-full justify-between md:max-w-screen-2xl md:mx-auto'>
+            <nav className="w-full h-12 z-40 fixed px-4 bg-primary-red">
+                <div className='flex h-full justify-between md:max-w-screen-xl md:mx-auto'>
 
                     <button className="md:hidden flex items-center gap-x-2" onClick={toggleMobileMenu}>
                         <Link className="flex items-center space-x-2 group" href="">
@@ -43,7 +43,7 @@ export default function Navbar() {
                             <img src={SummerFestIcon.src} alt="Summer Festival icon" className="h-10 " />
                         </Link>
                     </ul>
-                    <ul className='hidden md:flex space-x-14 items-center text-white'>
+                    <ul className='hidden md:flex space-x-14 items-center text-white font-semibold'>
                         <li>
                             <Link href="/#about" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
                                 About

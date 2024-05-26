@@ -6,12 +6,12 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer
-            className="bg-black w-full"
+            className="bg-stone-950 w-full"
         >
-            <div className="px-5 py-10 md:max-w-screen-2xl md:mx-auto">
+            <div className="px-5 py-8 md:mx-auto">
 
                 <div className="flex flex-col items-center">
-                    <section className="max-w-52 lg:max-w-xs mb-5">
+                    <section className="max-w-40 lg:max-w-xs mb-5">
                         <ExportedImage
                             alt="Logo of The Summer Festival presented by SFU Anime"
                             src={logoImage}
@@ -24,27 +24,27 @@ export default function Footer() {
                         3700 Willingdon Avenue
                     </section>
 
-                    <div className="border border-primary-yellow w-40 my-10">
+                    <div className="border-2 border-primary-yellow w-40 my-8">
                     </div>
 
                     <ul className="text-white flex gap-x-3.5">
                         <li>
-                            <Link href={"/"}>
+                            <Link href={"/"} className="hover:text-primary-yellow duration-200">
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href={""}>
+                            <Link href={""} className="hover:text-primary-yellow duration-200">
                                 Contact Us
                             </Link>
                         </li>
                         <li>
-                            <Link href={"/#about"}>
+                            <Link href={"/#about"} className="hover:text-primary-yellow duration-200">
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link href={""}>
+                            <Link href={"/faq"} className="hover:text-primary-yellow duration-200">
                                 FAQ
                             </Link>
                         </li>
@@ -54,7 +54,7 @@ export default function Footer() {
                     </section>
                     <section>
                         <p className="text-gray-500 text-xs">
-                            &copy; SFU Summer Festival 2022-2024
+                            &copy; SFU Summer Festival 2024
                         </p>
                     </section>
                 </div>
