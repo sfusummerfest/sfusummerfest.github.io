@@ -46,7 +46,7 @@ export default function Home() {
               September 7th  •  1:30 pm - 8:00 pm  •  3700 Willingdon Avenue
             </h1>
           </div>
-          <Link href="/">
+          <Link href="https://u.sfuani.me/SFestVendorRegistrationTableForm" target="_blank">
             <button
               className="
                 active:text-primary-red hocus:-translate-y-1 transition-all bg-primary-yellow
@@ -98,11 +98,11 @@ export default function Home() {
               <p className="text-base lg:text-lg">
                 1:30 pm to 8:00 pm
               </p>
-              <h3 className="text-2xl font-bold mt-6 mb-2">
+              <h3 className="text-xl lg:text-2xl font-bold mt-6 mb-2">
                 Event Location
               </h3>
               <p className="text-base lg:text-lg">
-                BCIT's Burnaby Campus
+                BCIT&apos;s Burnaby Campus
               </p>
               <p className="text-base lg:text-lg">
                 3700 Willingdon Avenue

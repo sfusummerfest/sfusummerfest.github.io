@@ -19,7 +19,7 @@ export default function FAQ() {
             <article className="w-full md:max-w-screen-xl px-5 pt-16">
                 <header className="border-b-2 border-stone-950 sm:text-center my-10 pb-8">
                     <h2 className="text-4xl font-bold text-stone-950">
-                        FAQ's
+                        FAQ&apos;s
                     </h2>
                     <p className="text-lg text-stone-700">
                         Frequently Asked General and Vendor Related Questions

@@ -3,7 +3,7 @@
         "id": "item-1",
         "category": "Artist and Vendor FAQ",
         "question": "How will event artists & vendors be chosen?",
-        "answer": "Previous Summer Festivals used the first-come-first-served system of signing up for the event, but for 2024, artists & vendors will be chosen by a mix of jury and lottery."
+        "answer": "Previous Summer Festivals used the first-come-first-served system of signing up for the event, but for 2024, artists & vendors will be chosen by juried lottery."
     },
     {
         "id": "item-2",
@@ -34,5 +34,11 @@
         "category": "General FAQ",
         "question": "Is there free Wi-Fi available?",
         "answer": "Unfortunately, campus Wi-Fi is only available to Students, Faculty and Staff with the only exception being the 'eduroam' hotspot which is open to students and former students of other academic institutions."
+    },
+    {
+        "id": "item-7",
+        "category": "General FAQ",
+        "question": "Can I bring a small pet with me?",
+        "answer": "As the event takes place at BCIT we are subject to their rules and policies on the matter. BCIT's policy on Animals on Campus strongly prefers pets not to be brought on Campus with the exception of working and research animals."
     }
 ]

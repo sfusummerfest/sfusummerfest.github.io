@@ -33,11 +33,11 @@ export default function Footer() {
                                 Home
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href={""} className="hover:text-primary-yellow duration-200">
                                 Contact Us
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href={"/#about"} className="hover:text-primary-yellow duration-200">
                                 About

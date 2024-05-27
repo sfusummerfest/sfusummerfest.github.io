@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import SakuraIcon from "@/public/images/sakura.webp";
 import SummerFestIcon from "@/public/images/logos/the-summer-festival-icon.webp";
+import { Menu } from 'lucide-react';
 
 export default function Navbar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,6 +33,7 @@ export default function Navbar() {
 
                     <button className="md:hidden flex items-center gap-x-2" onClick={toggleMobileMenu}>
                         <Link className="flex items-center space-x-2 group" href="">
+                            <Menu className='stroke-white' />
                             <img src={SakuraIcon.src} alt="Sakura icon" className="h-10 w-10 transition-transform duration-300 group-hover:rotate-45" />
                             <img src={SummerFestIcon.src} alt="Summer Festival icon" className="h-10 " />
                         </Link>
@@ -49,11 +51,11 @@ export default function Navbar() {
                                 About
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href="/" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
                                 Contact
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href="/faq" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
                                 FAQ
