@@ -1,0 +1,44 @@
+[
+    {
+        "id": "item-1",
+        "category": "Artist and Vendor FAQ",
+        "question": "How will event artists & vendors be chosen?",
+        "answer": "Previous Summer Festivals used the first-come-first-served system of signing up for the event, but for 2024, artists & vendors will be chosen by juried lottery."
+    },
+    {
+        "id": "item-2",
+        "category": "Artist and Vendor FAQ",
+        "question": "Are minors allowed to vend at The Summer Festival?",
+        "answer": "Minors will only be allowed to vend if accompanied by a legal guardian, whose contact information must be given for the vendor's safety."
+    },
+    {
+        "id": "item-3",
+        "category": "General FAQ",
+        "question": "What time does the event open?",
+        "answer": "1:30PM-8:00PM"
+    },
+    {
+        "id": "item-4",
+        "category": "General FAQ",
+        "question": "Is there free parking available?",
+        "answer": "There is no free parking available. The parking fee is $9.60 per day."
+    },
+    {
+        "id": "item-5",
+        "category": "General FAQ",
+        "question": "Is this event free?",
+        "answer": "The Summer Festival is free to attend for all ages! Certains of the event will need payment in order to participate such as the games card for our Games section."
+    },
+    {
+        "id": "item-6",
+        "category": "General FAQ",
+        "question": "Is there free Wi-Fi available?",
+        "answer": "Unfortunately, campus Wi-Fi is only available to Students, Faculty and Staff with the only exception being the 'eduroam' hotspot which is open to students and former students of other academic institutions."
+    },
+    {
+        "id": "item-7",
+        "category": "General FAQ",
+        "question": "Can I bring a small pet with me?",
+        "answer": "As the event takes place at BCIT we are subject to their rules and policies on the matter. BCIT's policy on Animals on Campus strongly prefers pets not to be brought on Campus with the exception of working and research animals."
+    }
+]
