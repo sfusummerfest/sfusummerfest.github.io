@@ -1,7 +1,7 @@
 import "@fortawesome/fontawesome-free/js/all.min";
 import Link from "next/link";
 
-import logoImage from "@/public/images/logos/the-summer-festival.webp"
+import logoImage from "@/public/images/logos/summer-festival-logo-2024.webp"
 import ExportedImage from "next-image-export-optimizer";
 import fireworkIcon from "@/public/images/firework.webp";
 import Natsuko from "@/public/images/natsuko.webp";
@@ -39,6 +39,7 @@ export default function Home() {
               alt="Logo of The Summer Festival presented by SFU Anime"
               src={logoImage}
               priority
+              className="pl-3"
             ></ExportedImage>
           </div>
           <div className="text-white text-lg font-semibold mx-3 text-center mb-3">

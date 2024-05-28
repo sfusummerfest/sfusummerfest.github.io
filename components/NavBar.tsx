@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import SakuraIcon from "@/public/images/sakura.webp";
-import SummerFestIcon from "@/public/images/logos/the-summer-festival-icon.webp";
+import SummerFestIcon from "@/public/images/logos/summer-fest-icon.png";
 import { Menu } from 'lucide-react';
 
 export default function Navbar() {
@@ -35,14 +35,14 @@ export default function Navbar() {
                         <Link className="flex items-center space-x-2 group" href="">
                             <Menu className='stroke-white' />
                             <img src={SakuraIcon.src} alt="Sakura icon" className="h-10 w-10 transition-transform duration-300 group-hover:rotate-45" />
-                            <img src={SummerFestIcon.src} alt="Summer Festival icon" className="h-10 " />
+                            <img src={SummerFestIcon.src} alt="Summer Festival icon" className="h-12 " />
                         </Link>
                     </button>
 
                     <ul className="hidden md:flex space-x-6 items-center">
                         <Link className="flex items-center space-x-2 group" href="/">
                             <img src={SakuraIcon.src} alt="Sakura icon" className="h-10 w-10 transition-transform duration-300 group-hover:rotate-45" />
-                            <img src={SummerFestIcon.src} alt="Summer Festival icon" className="h-10 " />
+                            <img src={SummerFestIcon.src} alt="Summer Festival icon" className="h-12 " />
                         </Link>
                     </ul>
                     <ul className='hidden md:flex space-x-14 items-center text-white font-semibold'>
