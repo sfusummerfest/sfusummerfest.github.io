@@ -63,9 +63,9 @@ export default function Home() {
 
       <article className="md:max-w-screen-xl mx-4 grid grid-cols-4 gap-4 lg:pt-24" id="about">
         <div className="col-span-full lg:col-span-2 lg:row-start-1">
-          <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row text-stone-950">
+          <h2 className="text-4xl font-bold mb-6 flex lg:items-center lg:flex-row text-stone-950">
             What is the Summer Festival?
-            <img src={PaperFanIcon.src} alt="Paper fan icon" className="lg:ml-4 h-auto max-w-16 object-contain" />
+            <img src={PaperFanIcon.src} alt="Paper fan icon" className="ml-4 h-auto max-w-16 object-contain" />
           </h2>
           <p className="text-base lg:text-lg mb-6">
             The Summer Festival is a one-day, <b>free to attend</b> anime convention in the style of a Japanese ‘Matsuri’ festival held right in Metro Vancouver! While traditionally held on SFU’s Burnaby Mountain campus, SFU Anime has collaborated with BCIT Anime to host the event in BCIT’s Burnaby campus for 2024.
@@ -81,9 +81,9 @@ export default function Home() {
 
       <article className="md:max-w-screen-xl mx-4 grid grid-cols-4 gap-4 pb-24 lg:pt-24">
         <div className="col-span-full lg:col-span-2 flex flex-col justify-center">
-          <h2 className="text-4xl font-bold mb-6 flex flex-col-reverse lg:items-center lg:flex-row text-stone-950">
+          <h2 className="text-4xl font-bold mb-6 flex lg:items-center lg:flex-row text-stone-950">
             When is the Summer Festival?
-            <img src={fireworkIcon.src} alt="Firework Icon" className="lg:ml-4 h-auto max-w-14 object-contain" />
+            <img src={fireworkIcon.src} alt="Firework Icon" className="ml-4 h-auto max-w-14 object-contain" />
           </h2>
           <div className="flex items-center flex-row-reverse">
             <div className="w-1/2">
