@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   images: {
-    loader: 'custom',
+    unoptimized: true,
   },
   transpilePackages: [
     'next-image-export-optimizer'

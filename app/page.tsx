@@ -7,6 +7,8 @@ import fireworkIcon from "@/public/images/firework.webp";
 import Natsuko from "@/public/images/natsuko.webp";
 import PaperFanIcon from "@/public/images/paper-fan.webp";
 import RenAyumi from "@/public/images/ren-ayumi.webp";
+import Sponsors from "@/components/Sponsors";
+
 
 export default function Home() {
   return (
@@ -122,6 +124,9 @@ export default function Home() {
           ></iframe>
         </div>
       </article>
+
+      <Sponsors />
+
     </div>
   )
 }
