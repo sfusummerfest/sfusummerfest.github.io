@@ -86,7 +86,7 @@ export default function Home() {
           </div>
         </section>
         <div
-          className="absolute top-0 right-0 w-full md:w-4/5 lg:w-full h-full bg-contain bg-no-repeat opacity-15 z-0 rotate-180"
+          className="absolute top-0 right-0 w-full md:w-4/5 lg:w-full h-full bg-contain object-contain bg-no-repeat opacity-15 z-0 rotate-180"
           style={{ backgroundImage: `url(${blossoms1.src})`, backgroundPosition: '-72px 0' }}
         >
         </div>
@@ -138,7 +138,7 @@ export default function Home() {
         </section>
 
         <div
-          className="absolute top-0 left-0 w-full md:w-4/5 lg:w-full h-full bg-contain bg-no-repeat opacity-15 z-0"
+          className="absolute top-0 left-0 w-full md:w-4/5 lg:w-full h-full bg-contain object-contain bg-no-repeat opacity-15 z-0"
           style={{ backgroundImage: `url(${blossoms2.src})`, backgroundPosition: '-72px ' }}
         ></div>
       </article>
