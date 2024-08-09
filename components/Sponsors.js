@@ -39,7 +39,7 @@ export default function Sponsors() {
                                 alt={sponsor.alt}
                                 width={160}
                                 height={160}
-                                className="object-contain mix-blend-multiply hover:scale-110 transition-transform duration-300"
+                                className="object-contain mix-blend-multiply"
                                 loading="lazy"
                             />
                         )}
