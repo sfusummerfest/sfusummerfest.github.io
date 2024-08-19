@@ -127,7 +127,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center col-span-full row-start-2 lg:row-start-1 lg:col-start-3 lg:col-span-2 pt-8 lg:pt-0 h-96 z-20">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.9241972913957!2d-123.00332618431946!3d49.24880927932766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486770f1e0af3c1%3A0x1e3dfd9f81966026!2sBritish%20Columbia%20Institute%20of%20Technology%20(BCIT)%20Burnaby%20Campus!5e0!3m2!1sen!2sca!4v1626276243721!5m2!1sen!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.3555300242944!2d-123.00071565098887!3d49.248607388675794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676e1e37125a3%3A0xcef19ec766ed7764!2sBCIT%20Recreation%20Services!5e0!3m2!1sen!2sca!4v1724094950121!5m2!1sen!2sca"
               width="100%"
               className="w-full lg:pl-20"
               allowFullScreen
