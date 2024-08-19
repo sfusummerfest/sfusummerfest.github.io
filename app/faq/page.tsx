@@ -7,6 +7,11 @@ import {
 import ChibiYuki from '@/public/images/chibi-yuki.webp';
 import faqs from '@/app/data/faqs.json';
 
+export const metadata = {
+    title: 'Summerfest FAQ',
+    description: 'Frequently askedgeneral and vendor related questions.'
+};
+
 export default function FAQ() {
     const artistAndVendorFAQs = faqs.filter(faq => faq.category === "Artist and Vendor FAQ");
     const generalFAQs = faqs.filter(faq => faq.category === "General FAQ");

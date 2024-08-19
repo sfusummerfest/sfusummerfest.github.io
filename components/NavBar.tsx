@@ -31,9 +31,9 @@ export default function Navbar() {
             <nav className="w-full h-12 z-40 fixed px-4 bg-primary-red">
                 <div className='flex h-full justify-between md:max-w-screen-xl md:mx-auto'>
 
-                    <button className="md:hidden flex items-center gap-x-2" onClick={toggleMobileMenu}>
-                        <Link className="flex items-center space-x-2 group" href="">
-                            <Menu className='stroke-white' />
+                    <button className="md:hidden flex items-center gap-x-2">
+                        <Menu className='stroke-white' onClick={toggleMobileMenu} />
+                        <Link className="flex items-center space-x-2 group" href="/">
                             <img src={SakuraIcon.src} alt="Sakura icon" className="h-10 w-10 transition-transform duration-300 group-hover:rotate-45" />
                             <img src={SummerFestIcon.src} alt="Summer Festival icon" className="h-12 " />
                         </Link>
@@ -51,11 +51,11 @@ export default function Navbar() {
                                 About
                             </Link>
                         </li>
-                        {/* <li>
-                            <Link href="/" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
-                                Contact
+                        <li>
+                            <Link href="/floorplan" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
+                                Floorplan
                             </Link>
-                        </li> */}
+                        </li>
                         <li>
                             <Link href="/faq" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
                                 FAQ
@@ -80,8 +80,8 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link onClick={toggleMobileMenu} href="">
-                            Contact
+                        <Link onClick={toggleMobileMenu} href="/floorplan">
+                            Floorplan
                         </Link>
                     </li>
                     <li>
