@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Floorplan() {
     return (
-        <article className='md:max-w-screen-xl mx-auto px-4 pt-24 pb-20'>
+        <article className='md:max-w-screen-2xl mx-auto px-4 pt-16 pb-20'>
             <header className="border-b-2 border-stone-950 sm:text-center my-10 pb-8">
                 <h2 className="text-4xl font-bold text-stone-950">
                     Summerfest 2024 Floorplan

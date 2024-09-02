@@ -23,7 +23,7 @@ export default function Sponsors() {
             <h2 className="mx-4 text-4xl font-bold mb-3 text-center text-stone-950 border-b-2 border-stone-950 pb-4">
                 Our Sponsors
             </h2>
-            <div className="flex flex-wrap justify-center items-center gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3  justify-center items-center">
                 {sponsors.map((sponsor, index) => (
                     <div key={index} className="flex justify-center items-center p-4">
                         {sponsor.isSvg ? (
@@ -67,3 +67,4 @@ export default function Sponsors() {
         </section>
     );
 }
+

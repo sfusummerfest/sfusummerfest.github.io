@@ -53,7 +53,7 @@ export default function Footer() {
                         <SocMedBar></SocMedBar>
                     </section>
                     <section>
-                        <p className="text-gray-500 text-xs">
+                        <p className="text-gray-500 text-sm font-semibold">
                             &copy; SFU Summer Festival 2024
                         </p>
                     </section>
