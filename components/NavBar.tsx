@@ -45,7 +45,7 @@ export default function Navbar() {
                             <img src={SummerFestIcon.src} alt="Summer Festival icon" className="h-12 " />
                         </Link>
                     </ul>
-                    <ul className='hidden md:flex space-x-14 items-center text-white font-semibold'>
+                    <ul className='hidden md:flex space-x-10 items-center text-white font-semibold'>
                         <li>
                             <Link href="/#about" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
                                 About
@@ -54,6 +54,11 @@ export default function Navbar() {
                         <li>
                             <Link href="/floorplan" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
                                 Floorplan
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/schedule" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
+                                Schedule
                             </Link>
                         </li>
                         <li>
@@ -82,6 +87,11 @@ export default function Navbar() {
                     <li>
                         <Link onClick={toggleMobileMenu} href="/floorplan">
                             Floorplan
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={toggleMobileMenu} href="/schedule">
+                            Schedule
                         </Link>
                     </li>
                     <li>
