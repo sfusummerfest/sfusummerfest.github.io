@@ -18,10 +18,10 @@ export default function Footer() {
                         ></ExportedImage>
                     </section>
                     <section className="text-white">
-                        BCIT Burnaby Campus
+                        Simon Fraser University
                     </section>
                     <section className="text-white">
-                        3700 Willingdon Avenue
+                        8888 University Drive
                     </section>
 
                     <div className="border-2 border-primary-yellow w-40 my-8">

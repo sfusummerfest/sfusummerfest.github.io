@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="text-white text-lg font-semibold mx-3 text-center mb-3">
             <h1>
-              2025 Summer Festival Date TBA!
+              2025 Summer Festival Date TBA!  •  8888 University Drive  •  SFU
             </h1>
           </div>
           {/* <Link href="https://u.sfuani.me/SFestVendorRegistrationTableForm" target="_blank">
