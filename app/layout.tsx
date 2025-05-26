@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ['latin'] })
 const karla = Karla({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'SFU x BCIT Summer Festival',
-  description: 'Website of SFU and BCIT Summer Festival',
+  title: 'SFU Summer Festival',
+  description: 'Website of the SFU Anime Summer Festival',
 }
 
 export default function RootLayout({

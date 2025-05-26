@@ -1,6 +1,6 @@
 import ExportedImage from "next-image-export-optimizer";
 import SocMedBar from "@/components/SocMedBar";
-import logoImage from "@/public/images/logos/summer-festival-logo-2024.webp"
+import logoImage from "@/public/images/logos/the-summer-festival.webp"
 import Link from "next/link";
 
 export default function Footer() {

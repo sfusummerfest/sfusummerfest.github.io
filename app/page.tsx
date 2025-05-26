@@ -1,7 +1,7 @@
 import "@fortawesome/fontawesome-free/js/all.min";
 import Link from "next/link";
 
-import logoImage from "@/public/images/logos/summer-festival-logo-2024.webp"
+import logoImage from "@/public/images/logos/the-summer-festival.webp"
 import ExportedImage from "next-image-export-optimizer";
 
 import blossoms1 from "@/public/images/blossoms-1.webp";
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="text-white text-lg font-semibold mx-3 text-center mb-3">
             <h1>
-              September 7th  •  1:30 pm - 8:00 pm  •  3700 Willingdon Avenue
+              2025 Summer Festival Date TBA!
             </h1>
           </div>
           {/* <Link href="https://u.sfuani.me/SFestVendorRegistrationTableForm" target="_blank">
