@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="text-white text-lg font-semibold mx-3 text-center mb-3">
             <h1>
-              2025 Summer Festival Date TBA!  •  8888 University Drive  •  SFU
+              2025 Summer Festival August 30th  •  8888 University Drive  •  SFU
             </h1>
           </div>
           {/* <Link href="https://u.sfuani.me/SFestVendorRegistrationTableForm" target="_blank">
@@ -108,26 +108,26 @@ export default function Home() {
                   Date & Hours
                 </h3>
                 <p className="text-base lg:text-lg">
-                  September 7th
+                  August 30th
                 </p>
                 <p className="text-base lg:text-lg">
-                  1:30 pm to 8:00 pm
+                  TBA
                 </p>
                 <h3 className="text-xl lg:text-2xl font-bold mt-6 mb-2">
                   Event Location
                 </h3>
                 <p className="text-base lg:text-lg">
-                  BCIT&apos;s Burnaby Campus
+                  SFU&apos;s Burnaby Campus
                 </p>
                 <p className="text-base lg:text-lg">
-                  3700 Willingdon Avenue
+                  8888 University Drive
                 </p>
               </div>
             </div>
           </div>
           <div className="flex justify-center col-span-full row-start-2 lg:row-start-1 lg:col-start-3 lg:col-span-2 pt-8 lg:pt-0 h-96 z-20">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.3555300242944!2d-123.00071565098887!3d49.248607388675794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676e1e37125a3%3A0xcef19ec766ed7764!2sBCIT%20Recreation%20Services!5e0!3m2!1sen!2sca!4v1724094950121!5m2!1sen!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.857778107772!2d-122.92275442459834!3d49.27909207100994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867915aeb38203%3A0xf44f87ea5f869ec4!2sStudent%20Union%20Building%20(SUB)!5e0!3m2!1sen!2sca!4v1748484620712!5m2!1sen!2sca"
               width="100%"
               className="w-full lg:pl-20"
               allowFullScreen

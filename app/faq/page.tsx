@@ -4,7 +4,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion";
-import ChibiYuki from '@/public/images/chibi-yuki.webp';
+import Natsuko from "@/public/images/natsuko.webp";
 import faqs from '@/app/data/faqs.json';
 
 export const metadata = {
@@ -32,7 +32,7 @@ export default function FAQ() {
                 </header>
                 <article className="grid gird-cols-1 gap-5 lg:grid-cols-2">
                     <div className="flex justify-center lg:col-start-2">
-                        <img src={ChibiYuki.src} alt="yuki" className="p-5 sm:p-0 w-2/3 sm:w-3/5 md:w-1/3 lg:w-3/5 h-auto object-contain" />
+                        <img src={Natsuko.src} alt="natsuko" className="p-5 sm:p-0 w-2/3 sm:w-3/5 md:w-1/3 lg:w-3/5 h-auto object-contain" />
                     </div>
                     <div className="pb-20 lg:row-start-1 lg:col-start-1">
                         <h3 className="text-2xl font-semibold mb-4">General FAQ</h3>
