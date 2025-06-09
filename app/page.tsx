@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="text-white text-lg font-semibold mx-3 text-center mb-3">
             <h1>
-              2025 Summer Festival August 30th  •  8888 University Drive  •  SFU
+              2025 Summer Festival August 23rd  •  8888 University Drive  •  SFU
             </h1>
           </div>
           {/* <Link href="https://u.sfuani.me/SFestVendorRegistrationTableForm" target="_blank">
@@ -75,7 +75,7 @@ export default function Home() {
               <img src={PaperFanIcon.src} alt="Paper fan icon" className="ml-4 h-auto max-w-16 object-contain" />
             </h2>
             <p className="text-base lg:text-lg mb-6">
-              The Summer Festival is a one-day, <b>free to attend</b> anime convention in the style of a Japanese ‘Matsuri’ festival held right in Metro Vancouver! While traditionally held on SFU’s Burnaby Mountain campus, SFU Anime has collaborated with BCIT Anime to host the event in BCIT’s Burnaby campus for 2024.
+              The Summer Festival is a one-day anime convention in the style of a Japanese ‘Matsuri’ festival held right in Metro Vancouver! SFU Anime will be hosting the event on SFU's Burnaby Mountain campus.
             </p>
             <p className="text-base lg:text-lg">
               At the festival itself you can find a variety of festival games, as well as, booths hosted by local artists and vendors selling hand-made art and various other goods. When you get hungry you will find a host of local food vendors cooking up fresh and delicious treats which you can enjoy along with stage performances and panels throughout the event.
@@ -108,7 +108,7 @@ export default function Home() {
                   Date & Hours
                 </h3>
                 <p className="text-base lg:text-lg">
-                  August 30th
+                  August 23rd
                 </p>
                 <p className="text-base lg:text-lg">
                   TBA
