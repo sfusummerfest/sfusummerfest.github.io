@@ -75,7 +75,7 @@ export default function Home() {
               <img src={PaperFanIcon.src} alt="Paper fan icon" className="ml-4 h-auto max-w-16 object-contain" />
             </h2>
             <p className="text-base lg:text-lg mb-6">
-              The Summer Festival is a one-day anime convention in the style of a Japanese ‘Matsuri’ festival held right in Metro Vancouver! SFU Anime will be hosting the event on SFU's Burnaby Mountain campus.
+              The Summer Festival is a one-day anime convention in the style of a Japanese "Matsuri" festival held right in Metro Vancouver! SFU Anime will be hosting the event on SFU's Burnaby Mountain campus.
             </p>
             <p className="text-base lg:text-lg">
               At the festival itself you can find a variety of festival games, as well as, booths hosted by local artists and vendors selling hand-made art and various other goods. When you get hungry you will find a host of local food vendors cooking up fresh and delicious treats which you can enjoy along with stage performances and panels throughout the event.
