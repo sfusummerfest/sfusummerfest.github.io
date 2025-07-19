@@ -111,7 +111,7 @@ export default function Home() {
                   August 23rd
                 </p>
                 <p className="text-base lg:text-lg">
-                  TBA
+                  1:30 - 8:30 pm
                 </p>
                 <h3 className="text-xl lg:text-2xl font-bold mt-6 mb-2">
                   Event Location
