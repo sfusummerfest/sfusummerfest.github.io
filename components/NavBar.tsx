@@ -39,6 +39,15 @@ export default function Navbar() {
                         </Link>
                     </button>
 
+                    <ul className='flex sm:hidden space-x-1 items-center text-whitefont-semibold px-2'>
+                        <li>
+                            <Link href="https://sfuanime.square.site/product/summer-festival-2025-ticket/J3RUC7FWIFCR3HCHOOCRWJ2R" 
+                            className='inline-block text-white text-lg font-sm underline underline-offset-4 hover:scale-110 transition-transform duration-150 ease-in-out'>
+                                BUY TICKETS
+                            </Link>
+                        </li>
+                    </ul>
+
                     <ul className="hidden md:flex space-x-6 items-center">
                         <Link className="flex items-center space-x-2 group" href="/">
                             <img src={SakuraIcon.src} alt="Sakura icon" className="h-10 w-10 transition-transform duration-300 group-hover:rotate-45" />
@@ -64,6 +73,12 @@ export default function Navbar() {
                         <li>
                             <Link href="/faq" className='hover:text-primary-yellow ease-in-out transition-colors duration-150'>
                                 FAQ
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="https://sfuanime.square.site/product/summer-festival-2025-ticket/J3RUC7FWIFCR3HCHOOCRWJ2R" 
+                            className='inline-block text-white text-lg font-semibold underline underline-offset-4 hover:scale-110 transition-transform duration-150 ease-in-out'>
+                                BUY TICKETS NOW!
                             </Link>
                         </li>
                     </ul>
@@ -97,6 +112,11 @@ export default function Navbar() {
                     <li>
                         <Link onClick={toggleMobileMenu} href="/faq">
                             FAQ
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={toggleMobileMenu} href="https://sfuanime.square.site/product/summer-festival-2025-ticket/J3RUC7FWIFCR3HCHOOCRWJ2R">
+                            <b>Buy Tickets</b>
                         </Link>
                     </li>
                 </ul>
