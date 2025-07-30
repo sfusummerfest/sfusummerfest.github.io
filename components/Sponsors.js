@@ -6,15 +6,18 @@ import nimbasa from '@/public/images/sponsors/Nimbasa.webp';
 import sakuraMedia from '@/public/images/sponsors/sakura-media-logo.webp';
 import TokyoTreatSvg from '@/components/TokyoTreatSvg';
 import plamod from '@/public/images/sponsors/plamod.webp';
+import sfss from '@/public/images/sponsors/SFSS_COLOR_LOGO.webp';
+import studioSIAT from '@/public/images/sponsors/StudioSIAT_mascot.webp';
 
 const sponsors = [
-    { component: TokyoTreatSvg, isSvg: true, alt: 'Tokyo Treat SVG', link: 'https://tokyotreat.com/' },
     { src: hobbyBee, alt: 'Hobby Bee Canada', link: 'https://hobby-bee.com/' },
-    { src: konbiniya, alt: 'Konbiniya Japan Centre', link: 'https://konbiniya.com/' },
     { src: mouseCollectibles, alt: 'Mouse Collectibles' },
     { src: nimbasa, alt: 'Nimbasa Entertainment', link: 'https://nimbasa.co/' },
     { src: sakuraMedia, alt: 'Sakura Media', link: 'https://www.instagram.com/sakuramediametro/' },
-    { src: plamod, alt: 'Plamod Distributors Inc', link: 'https://www.instagram.com/plamod_official/' },
+    { src: studioSIAT, alt: 'StudioSIAT', link: 'http://www.sfu.ca/siat/studiosiat.html'},
+    { src: sfss, alt: 'Simon Fraser Student Society', link: 'https://sfss.ca/'}
+    // { src: plamod, alt: 'Plamod Distributors Inc', link: 'https://www.instagram.com/plamod_official/' },
+
 ];
 
 export default function Sponsors() {
