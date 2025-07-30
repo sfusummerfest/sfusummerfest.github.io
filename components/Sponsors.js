@@ -7,7 +7,7 @@ import sakuraMedia from '@/public/images/sponsors/sakura-media-logo.webp';
 import TokyoTreatSvg from '@/components/TokyoTreatSvg';
 import plamod from '@/public/images/sponsors/plamod.webp';
 import sfss from '@/public/images/sponsors/SFSS_COLOR_LOGO.webp';
-import studioSIAT from '@/public/images/sponsors/StudioSIAT_mascot.webp';
+import studioSIAT from '@/public/images/sponsors/SFU_SIAT_logo.png';
 
 const sponsors = [
     { src: hobbyBee, alt: 'Hobby Bee Canada', link: 'https://hobby-bee.com/' },
