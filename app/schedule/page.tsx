@@ -2,7 +2,7 @@ import { panelSchedule, stageSchedule } from './scheduleData';
 
 export const metadata = {
     title: 'Summerfest Schedule',
-    description: 'View the Summerfest 2024 Schedule.',
+    description: 'View the Summerfest 2025 Schedule.',
 };
 
 export default function Schedule() {
@@ -10,7 +10,7 @@ export default function Schedule() {
         <article className='md:max-w-screen-xl mx-auto px-4 pt-16 pb-20'>
             <header className="border-b-2 border-stone-950 sm:text-center my-10 pb-8">
                 <h2 className="text-4xl font-bold text-stone-950">
-                    Summerfest 2024 Schedule
+                    Summerfest 2025 Schedule
                 </h2>
                 <p className="text-lg text-stone-700">
                     Main stage and panel schedules
@@ -61,7 +61,7 @@ export default function Schedule() {
                             {panelSchedule.map((panel, index) => (
                                 <>
                                     <tr key={index} className="border-b border-stone-300 hidden sm:table-row">
-                                        <td className="text-base sm:text-lg py-4">{panel.time}</td>
+                                        <td className="text-base sm:text-lg py-4 pr-6 whitespace-nowrap">{panel.time}</td>
                                         <td className="text-base sm:text-lg py-4">{panel.title}</td>
                                     </tr>
 

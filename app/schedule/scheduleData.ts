@@ -5,66 +5,66 @@ export interface Event {
 
 export const panelSchedule: Event[] = [
     {
-        title: 'Anime in the Philippines',
-        time: '2:00 - 2:55',
+        title: 'Anime Trivia All Stars',
+        time: '1:35 - 2:35',
     },
     {
-        title: "The Pitfalls I've Fell into as a Panelist",
-        time: '3:00 - 3:45',
+        title: "Leveling Up Your Cosplay",
+        time: '2:40 - 3:40',
     },
     {
-        title: 'Husbando All Stars',
-        time: '3:55 - 4:50',
+        title: 'So you want to live in your favourite anime: A guide to anime pilgrimages | 聖地巡礼ガイド',
+        time: '3:45 - 4:15',
     },
     {
-        title: 'Collecting 101 (VA Panel)',
+        title: '3D printing for Cosplay',
         time: '5:00 - 6:00',
     },
     {
-        title: 'From Fan to Pro VA (VA PANEL)',
-        time: '6:15 - 7:15',
+        title: 'This Year In Anime... Food!?',
+        time: '5:15 - 6:25',
+    },
+    {
+        title: 'Voicing Over Vancouver With Aaron and Jenna',
+        time: '6:30 - 7:30',
     },
 ];
 
 export const stageSchedule: Event[] = [
     {
-        title: 'Opening Ceremony',
-        time: '1:30 - 1:45',
+        title: 'Time Skip',
+        time: '1:30 - 2:15',
     },
     {
-        title: 'Cloudtown',
-        time: '1:45 - 2:10',
+        title: 'Lily Barker',
+        time: '2:15 - 2:45',
     },
     {
-        title: 'Estella',
-        time: '2:15 - 2:55',
-    },
-    {
-        title: 'VA Panel / Activities',
-        time: '3:00 - 4:30',
-    },
-    {
-        title: 'First Prize Draw',
-        time: '4:30 - 4:45',
-    },
-    {
-        title: 'Nonsweet',
-        time: '4:45 - 5:30',
-    },
-    {
-        title: 'Cosplay Contest',
-        time: '5:35 - 6:20',
-    },
-    {
-        title: 'Second Prize Draw',
-        time: '6:20 - 6:45',
+        title: 'HEARTXCHAOS',
+        time: '2:45 - 3:15',
     },
     {
         title: 'UAM',
-        time: '6:45 - 7:30',
+        time: '3:15 - 4:15',
     },
     {
-        title: 'Closing Ceremony + Grand Prize Draw',
-        time: '7:35 - 8:00',
+        title: 'StudioSIAT',
+        time: '4:15 - 5:15',
     },
+    {
+        title: 'Cosplay Contest',
+        time: '5:15 - 6:00',
+    },
+    {
+        title: 'Maple Blossom',
+        time: '6:00 - 6:15',
+    },
+    {
+        title: 'Sakuyura',
+        time: '6:15 - 6:30',
+    },
+    {
+        title: 'Konbu Dashi',
+        time: '6:35 - 7:30',
+    }
 ];
