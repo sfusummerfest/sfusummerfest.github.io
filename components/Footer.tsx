@@ -54,7 +54,7 @@ export default function Footer() {
                     </section>
                     <section>
                         <p className="text-gray-500 text-sm font-semibold">
-                            &copy; SFU Summer Festival 2024
+                            &copy; SFU Summer Festival 2025
                         </p>
                     </section>
                 </div>
