@@ -40,7 +40,7 @@ export default function FAQ() {
                             {generalFAQs.map(faq => (
                                 <AccordionItem key={faq.id} value={faq.id}>
                                     <AccordionTrigger>{faq.question}</AccordionTrigger>
-                                    <AccordionContent>{faq.answer}</AccordionContent>
+                                    <AccordionContent className="whitespace-pre-line">{faq.answer}</AccordionContent>
                                 </AccordionItem>
                             ))}
                         </Accordion>
@@ -50,7 +50,7 @@ export default function FAQ() {
                             {artistAndVendorFAQs.map(faq => (
                                 <AccordionItem key={faq.id} value={faq.id}>
                                     <AccordionTrigger>{faq.question}</AccordionTrigger>
-                                    <AccordionContent>{faq.answer}</AccordionContent>
+                                    <AccordionContent className="whitespace-pre-line">{faq.answer}</AccordionContent>
                                 </AccordionItem>
                             ))}
                         </Accordion>

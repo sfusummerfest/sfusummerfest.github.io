@@ -33,12 +33,12 @@
         "id": "item-6",
         "category": "General FAQ",
         "question": "Is there free Wi-Fi available?",
-        "answer": "Unfortunately, campus Wi-Fi is only available to Students, Faculty and Staff with the only exception being the 'eduroam' hotspot which is open to students and former students of other academic institutions."
+        "answer": "'SFU-Guest' should be available for guests visiting our campus, the instructions to connect to said wifi can be found here: https://sfu.teamdynamix.com/TDClient/255/ITServices/KB/ArticleDet?ID=3966\n\nIf you are an SFU student, or a student/former student from other learning institutions, you will also be able to connect through the 'eduroam' wifi."
     },
     {
         "id": "item-7",
         "category": "General FAQ",
         "question": "Can I bring a small pet with me?",
-        "answer": "As the event takes place at BCIT we are subject to their rules and policies on the matter. BCIT's policy on Animals on Campus strongly prefers pets not to be brought on Campus with the exception of working and research animals."
+        "answer": "Only certified service/guide animals may accompany attendees."
     }
 ]
