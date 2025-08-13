@@ -14,6 +14,7 @@ import studioSIAT from '@/public/images/sponsors/SFU_SIAT_logo.png';
 import sunsetStudios from '@/public/images/sponsors/Sunsetvisitor_Logo_Horizontal_Black.webp'
 import treehouseToys from '@/public/images/sponsors/New-Toys-logo-1_03.png'
 import turtleKeebs from '@/public/images/sponsors/Turtle_Keebs.png'
+import vancouver102 from '@/public/images/sponsors/Vancouver102.jpg'
 import yakg from '@/public/images/sponsors/YAKG.png';
 
 const sponsors = [
@@ -30,6 +31,7 @@ const sponsors = [
     { src: treehouseToys, alt: 'Treehouse Toys', link: 'https://treehousetoys.ca/'},
     { src: turtleKeebs, alt: 'Turtle Keebs', link: 'https://turtlekeebs.com/?srsltid=AfmBOoptKw6BsY3o1RStQCzDC9bi3WqShBkoK62NeppXeDxiLEtyZOIA'},
     { component: TokyoTreatSvg, isSvg: true, alt: 'Tokyo Treat', link: 'https://tokyotreat.com/?srsltid=AfmBOooVLxp5ogXvBqVv777hN3fs1GBAZ_RGshxwpAJIhv6glK4TMVWD'},
+    { src: vancouver102, alt: 'Vancouver 102', link: 'https://vancouver102.com/'},
     { src: yakg, alt: 'Yet Another Killing Game', link: 'https://linktr.ee/yakg'},
     // { src: plamod, alt: 'Plamod Distributors Inc', link: 'https://www.instagram.com/plamod_official/' },
 
