@@ -133,7 +133,7 @@ export default function Home() {
                   SFU&apos;s Burnaby Campus
                 </p>
                 <p className="text-base lg:text-lg">
-                  8888 University Drive
+                  8888 University Drive, V5A 1S6
                 </p>
               </div>
             </div>

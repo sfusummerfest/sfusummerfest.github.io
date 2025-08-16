@@ -21,7 +21,7 @@ export default function Footer() {
                         Simon Fraser University
                     </section>
                     <section className="text-white">
-                        8888 University Drive
+                        8888 University Drive, V5A 1S6
                     </section>
 
                     <div className="border-2 border-primary-yellow w-40 my-8">
