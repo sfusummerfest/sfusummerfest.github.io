@@ -1,4 +1,4 @@
-import floorplan2025 from '@/public/images/2025_SummerFest_Public_Floorplan.webp';
+import floorplan2025 from '@/public/images/2025_SummerFest_Public_Floorplan.png';
 
 export const metadata = {
     title: 'Summerfest Floorplan',
