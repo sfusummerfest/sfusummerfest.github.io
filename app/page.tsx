@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="text-white text-lg font-semibold mx-3 text-center mb-3">
             <h1>
-              2025 Summer Festival August 23rd  •  8888 University Drive  •  SFU
+              2026 Summer Festival August 29th  •  8888 University Drive  •  SFU
             </h1>
           </div>
           {/* <Link href="https://u.sfuani.me/SFestVendorRegistrationTableForm" target="_blank">
@@ -121,10 +121,10 @@ export default function Home() {
                   Date & Hours
                 </h3>
                 <p className="text-base lg:text-lg">
-                  August 23rd
+                  August 29th
                 </p>
                 <p className="text-base lg:text-lg">
-                  1:30 - 8:00 pm
+                  12:00 - 7:00 pm
                 </p>
                 <h3 className="text-xl lg:text-2xl font-bold mt-6 mb-2">
                   Event Location
