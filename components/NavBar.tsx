@@ -40,12 +40,12 @@ export default function Navbar() {
                     </button>
 
                     <ul className='flex sm:hidden space-x-1 items-center text-whitefont-semibold px-2'>
-                        <li>
+                        {/* <li>
                             <Link href="https://sfuanime.square.site/product/summer-festival-2025-ticket/J3RUC7FWIFCR3HCHOOCRWJ2R" 
                             className='inline-block text-white text-lg font-sm underline underline-offset-4 hover:scale-110 transition-transform duration-150 ease-in-out'>
                                 BUY TICKETS
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
 
                     <ul className="hidden md:flex space-x-6 items-center">
@@ -75,12 +75,12 @@ export default function Navbar() {
                                 FAQ
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href="https://sfuanime.square.site/product/summer-festival-2025-ticket/J3RUC7FWIFCR3HCHOOCRWJ2R" 
                             className='inline-block text-white text-lg font-semibold underline underline-offset-4 hover:scale-110 transition-transform duration-150 ease-in-out'>
                                 BUY TICKETS NOW!
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav >
@@ -114,11 +114,11 @@ export default function Navbar() {
                             FAQ
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link onClick={toggleMobileMenu} href="https://sfuanime.square.site/product/summer-festival-2025-ticket/J3RUC7FWIFCR3HCHOOCRWJ2R">
                             <b>Buy Tickets</b>
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </>
