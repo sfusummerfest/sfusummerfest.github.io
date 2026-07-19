@@ -64,7 +64,7 @@ export default function Home() {
               <span className="text-lg">Artist and Vendor Signup</span>
             </button>
           </Link> */
-          <Link href="https://sfuanime.square.site/product/summer-festival-2025-ticket/J3RUC7FWIFCR3HCHOOCRWJ2R" target="_blank">
+          <Link href="https://forms.gle/WQYLVSBZ6cHmenuH6" target="_blank">
             <button
               className="
                 active:text-primary-red hocus:-translate-y-1 transition-all bg-primary-yellow
@@ -72,7 +72,7 @@ export default function Home() {
                 rounded-full text-black flex items-center gap-x-5 group mt-20 sm:mt-10 md:mt-0"
             >
               <img src={fireworkIcon.src} alt="Firework icon" className="h-12 w-12 transition-transform duration-300 group-hover:rotate-45" />
-              <span className="text-lg">Buy Tickets Now!</span>
+              <span className="text-lg">Volunteers Sign Up!</span>
             </button>
           </Link>
           
