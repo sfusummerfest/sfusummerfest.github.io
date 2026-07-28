@@ -13,7 +13,7 @@ module.exports = {
         sans: ['Karla', 'sans-serif'],
       },
       colors: {
-        'brand-discord': '#7289DA',
+        'brand-discord': '#5865F2',
         'brand-facebook': '#3B5998',
         'brand-instagram': '#262626',
         'brand-twitch': '#6441A5',
