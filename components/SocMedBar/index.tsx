@@ -17,7 +17,7 @@ export type SocMedEntry = {
 
 export const SocMedEntryMap: { [key in SocMedBrand]: SocMedEntry } = {
     "discord": {
-        href: "https://www.discord.gg/sfuanime",
+        href: "https://discord.gg/McgG4P57Wf",
         body:
             <span className="bg-brand-discord p-3 rounded-md">
                 <i className="fa-brands fa-discord"></i>
