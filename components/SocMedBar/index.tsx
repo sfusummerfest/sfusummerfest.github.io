@@ -48,7 +48,7 @@ export const SocMedEntryMap: { [key in SocMedBrand]: SocMedEntry } = {
         href: "https://www.twitter.com/SFUSummerFest",
         body:
             <span className="bg-brand-twitter p-3 rounded-md">
-                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-x-twitter"></i>
             </span>
     },
     "youtube": {
