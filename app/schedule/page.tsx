@@ -10,7 +10,7 @@ export default function Schedule() {
         <article className='md:max-w-screen-xl mx-auto px-4 pt-16 pb-20'>
             <header className="border-b-2 border-stone-950 sm:text-center my-10 pb-8">
                 <h2 className="text-4xl font-bold text-stone-950">
-                    Summerfest 2025 Schedule
+                    Summerfest 2026 Schedule
                 </h2>
                 <p className="text-lg text-stone-700">
                     Main stage and panel schedules
