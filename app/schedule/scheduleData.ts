@@ -5,66 +5,58 @@ export interface Event {
 
 export const panelSchedule: Event[] = [
     {
+        title: 'Wigs 101',
+        time: '1:00 - 1:45',
+    },
+    {
+        title: "Anime in the Philippines",
+        time: '2:00 - 3:00',
+    },
+    {
         title: 'Anime Trivia All Stars',
-        time: '1:35 - 2:35',
+        time: '3:15 - 4:15',
     },
     {
-        title: "Leveling Up Your Cosplay",
-        time: '2:40 - 3:40',
-    },
-    {
-        title: 'So you want to live in your favourite anime: A guide to anime pilgrimages | 聖地巡礼ガイド',
-        time: '3:45 - 4:15',
-    },
-    {
-        title: '3D printing for Cosplay',
-        time: '5:00 - 6:00',
-    },
-    {
-        title: 'This Year In Anime... Food!?',
-        time: '5:15 - 6:25',
-    },
-    {
-        title: 'Voicing Over Vancouver With Aaron and Jenna',
-        time: '6:30 - 7:30',
+        title: 'Pachinko Anime Fever',
+        time: '4:30 - 5:30',
     },
 ];
 
 export const stageSchedule: Event[] = [
     {
-        title: 'Time Skip',
-        time: '1:30 - 2:15',
+        title: 'Angus Beef',
+        time: '12:30 - 1:00',
+    },
+    {
+        title: 'Naomi',
+        time: '1:15 - 1:30',
+    },
+    {
+        title: 'Christy/Karasuwwie',
+        time: '1:35 - 1:50',
+    },
+    {
+        title: 'Mille Feuille',
+        time: '1:55 - 2:15',
+    },
+    {
+        title: 'MagiaNote',
+        time: '2:20 - 2:50',
+    },
+    {
+        title: 'NonSweet',
+        time: '2:55 - 3:35',
+    },
+    {
+        title: 'AniJazz',
+        time: '4:55 - 5:25',
+    },
+    {
+        title: 'F/ACE',
+        time: '5:55 - 6:25',
     },
     {
         title: 'Lily Barker',
-        time: '2:15 - 2:45',
+        time: '6:30 - 7:00',
     },
-    {
-        title: 'HEARTXCHAOS',
-        time: '2:45 - 3:15',
-    },
-    {
-        title: 'UAM',
-        time: '3:15 - 4:15',
-    },
-    {
-        title: 'StudioSIAT',
-        time: '4:15 - 5:15',
-    },
-    {
-        title: 'Cosplay Contest',
-        time: '5:15 - 6:00',
-    },
-    {
-        title: 'Maple Blossom',
-        time: '6:00 - 6:15',
-    },
-    {
-        title: 'Sakuyura',
-        time: '6:15 - 6:30',
-    },
-    {
-        title: 'Konbu Dashi',
-        time: '6:35 - 7:30',
-    }
 ];
