@@ -10,6 +10,7 @@ import fireworkIcon from "@/public/images/firework.webp";
 import Natsuko from "@/public/images/natsuko.webp";
 import PaperFanIcon from "@/public/images/paper-fan.webp";
 import RenAyumi from "@/public/images/ren-ayumi.webp";
+import AniMirai from "@/public/images/AniMirai.png";
 
 import Sponsors from "@/components/Sponsors";
 
@@ -63,7 +64,7 @@ export default function Home() {
               <img src={fireworkIcon.src} alt="Firework icon" className="h-12 w-12 transition-transform duration-300 group-hover:rotate-45" />
               <span className="text-lg">Artist and Vendor Signup</span>
             </button>
-          </Link> */
+          </Link> */}
           <Link href="https://ticketscandy.com/e/sfu-summer-festival-2026-19750" target="_blank">
             <button
               className="
@@ -75,8 +76,18 @@ export default function Home() {
               <span className="text-lg">Buy Tickets Now!</span>
             </button>
           </Link>
+          <Link href="https://animirai.club/" target="_blank">
+            <button
+              className="
+                active:text-primary-red hocus:-translate-y-1 transition-all bg-primary-red
+                font-bold px-6 py-2 duration-300 ease-in-out
+                rounded-full text-black flex items-center gap-x-5 group mt-20 sm:mt-10 md:mt-0"
+            >
+              <img src={AniMirai.src} alt="Firework icon" className="h-12 w-12 transition-transform duration-300" />
+              <span className="text-lg">Official After Party Info!</span>
+            </button>
+          </Link>
           
-          }
         </div>
       </header>
 
