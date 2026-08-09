@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import "@fortawesome/fontawesome-free/js/all.min";
 import Link from "next/link";
 
@@ -16,6 +19,11 @@ import Sponsors from "@/components/Sponsors";
 
 
 export default function Home() {
+   const [videoId, setVideoId] = useState("3FAz7KMoKrA");
+
+  const youtubeSrc = `https://www.youtube.com/embed/${videoId}?si=RXYW2BWo_88rEV-Y&hd=1&rel=0&autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}`;
+
+
   return (
     <div
       className="flex flex-col items-center justify-between min-h-screen
@@ -30,7 +38,7 @@ export default function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media;
               gyroscope; picture-in-picture; web-share"
             allowFullScreen
-            src="https://www.youtube.com/embed/3FAz7KMoKrA?si=RXYW2BWo_88rEV-Y&hd=1&rel=0&autoplay=1&mute=1&controls=0&loop=1&playlist=3FAz7KMoKrA"
+            src={youtubeSrc}
             title="YouTube video player"
           ></iframe>
         </div>
@@ -82,6 +90,8 @@ export default function Home() {
                 active:text-primary-red hocus:-translate-y-1 transition-all bg-primary-red
                 font-bold px-6 py-2 duration-300 ease-in-out
                 rounded-full text-black flex items-center gap-x-5 group mt-20 sm:mt-10 md:mt-0"
+              onMouseEnter={() => setVideoId("DBgrmZS_zX0")}
+              onMouseLeave={() => setVideoId("3FAz7KMoKrA")}
             >
               <img src={AniMirai.src} alt="Firework icon" className="h-12 w-12 transition-transform duration-300" />
               <span className="text-lg">Official After Party Info!</span>
