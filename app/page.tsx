@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import "@fortawesome/fontawesome-free/js/all.min";
 import Link from "next/link";
 
@@ -19,37 +16,23 @@ import Sponsors from "@/components/Sponsors";
 
 
 export default function Home() {
-  const [isAfterPartyHovered, setIsAfterPartyHovered] = useState(false);
-
-  const mainSrc =
-    "https://www.youtube.com/embed/3FAz7KMoKrA?si=RXYW2BWo_88rEV-Y&hd=1&rel=0&autoplay=1&mute=1&controls=0&loop=1&playlist=3FAz7KMoKrA";
-  const hoverSrc =
-    "https://www.youtube.com/embed/DBgrmZS_zX0?si=RXYW2BWo_88rEV-Y&hd=1&rel=0&autoplay=1&mute=1&controls=0&loop=1&playlist=DBgrmZS_zX0";
   return (
     <div
       className="flex flex-col items-center justify-between min-h-screen
         space-y-8 bg-stone-50"
     >
       <header className="h-screen relative w-full">
-        <div className="absolute video-background h-full w-full overflow-hidden" id="home-bg-video-container">
+        <div
+          className="absolute video-background h-full w-full overflow-hidden"
+          id="home-bg-video-container"
+        >
           <iframe
-            className={`absolute inset-0 transition-opacity duration-300 ${
-              isAfterPartyHovered ? "opacity-0" : "opacity-100"
-            }`}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+              gyroscope; picture-in-picture; web-share"
             allowFullScreen
-            src={mainSrc}
+            src="https://www.youtube.com/embed/3FAz7KMoKrA?si=RXYW2BWo_88rEV-Y&hd=1&rel=0&autoplay=1&mute=1&controls=0&loop=1&playlist=3FAz7KMoKrA"
             title="YouTube video player"
-          />
-          <iframe
-            className={`absolute inset-0 transition-opacity duration-300 ${
-              isAfterPartyHovered ? "opacity-100" : "opacity-0"
-            }`}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-            src={hoverSrc}
-            title="YouTube after party video"
-          />
+          ></iframe>
         </div>
         <div
           className="fade-in-overlay absolute bg-black h-full left-0 opacity-70 top-0 w-full"
@@ -99,8 +82,6 @@ export default function Home() {
                 active:text-primary-red hocus:-translate-y-1 transition-all bg-primary-red
                 font-bold px-6 py-2 duration-300 ease-in-out
                 rounded-full text-black flex items-center gap-x-5 group mt-20 sm:mt-10 md:mt-0"
-              onMouseEnter={() => setIsAfterPartyHovered(true)}
-              onMouseLeave={() => setIsAfterPartyHovered(false)}
             >
               <img src={AniMirai.src} alt="Firework icon" className="h-12 w-12 transition-transform duration-300" />
               <span className="text-lg">Official After Party Info!</span>
