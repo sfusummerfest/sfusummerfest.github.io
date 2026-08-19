@@ -9,7 +9,7 @@ import sakuraMedia from '@/public/images/sponsors/sakura-media-logo.webp';
 import turtleKeebs from '@/public/images/sponsors/Turtle_Keebs.png';
 
 const sponsors = [
-    { src: aartx, alt: 'Arrtx', link:'https://aartx.com'},
+    { src: aartx, alt: 'Arrtx', link:'https://arrtx.com'},
     { src: fantuan, alt: 'Fantuan', link: 'https://fantuan.ca/en/' },
     { src: gongcha, alt: 'gongcha', link:'https://gong-cha.ca '},
     { src: hobbyBee, alt: 'Hobby Bee Canada', link: 'https://hobby-bee.com/' },
